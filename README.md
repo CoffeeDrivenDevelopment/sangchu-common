@@ -1,7 +1,7 @@
 # CDD Common
 
-![GitHub last commit (branch)]()
-![GitHub License]()
+![GitHub last commit (branch)](https://github.com/CoffeeDrivenDevelopment/sangchu-common/main)
+![GitHub License](https://img.shields.io/github/license/CoffeeDrivenDevelopment/sangchu-common)
 
 
 ## Dependency
