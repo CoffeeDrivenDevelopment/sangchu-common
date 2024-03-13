@@ -8,17 +8,33 @@
 
 [Jitpack - Dependency]()
 
+### build.gradle
+
+---
+
 ```groovy
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'com.github.sixprincesses:Wondoo-Exception:0.0.1'
+    implementation 'com.github.CoffeeDrivenDevelopment:sangchu-common:Tag'
+}
+```
+
+### build.gradle.kts
+
+---
+
+```kts
+repositories {
+    mavenCentral()
+    maven('https://jitpack.io')
+}
+
+dependencies {
+    implementation("com.github.CoffeeDrivenDevelopment:sangchu-common:Tag")
 }
 ```
 
