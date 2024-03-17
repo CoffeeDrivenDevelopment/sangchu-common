@@ -2,6 +2,8 @@ package com.cdd.common.response;
 
 import com.cdd.common.exception.CallConstructorException;
 import com.cdd.common.exception.ErrorCode;
+import com.cdd.common.exception.SangChuException;
+import com.cdd.common.exception.ServerErrorCode;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ExceptionCode {
@@ -22,6 +24,14 @@ public class ExceptionCode {
     }
 
     public static ExceptionCode from(ErrorCode errorCode) {
+        return new ExceptionCode(errorCode.getMessage(), errorCode.getErrorCode());
+    }
+
+    public static ExceptionCode from(SangChuException e) {
+        return new ExceptionCode(e.getMessage(), e.getErrorCode());
+    }
+
+    public static ExceptionCode from(ServerErrorCode errorCode) {
         return new ExceptionCode(errorCode.getMessage(), errorCode.getErrorCode());
     }
 }

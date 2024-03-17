@@ -1,5 +1,8 @@
 package com.cdd.common.exception;
 
+import lombok.Getter;
+
+@Getter
 public class SangChuException extends RuntimeException {
     private final int statusCode;
     private final String errorCode;
@@ -9,18 +12,5 @@ public class SangChuException extends RuntimeException {
         this.statusCode = errorCode.getStatusCode();
         this.errorCode = errorCode.getErrorCode();
         this.message = errorCode.getMessage();
-    }
-
-    public int getStatusCode() {
-        return statusCode;
-    }
-
-    public String getErrorCode() {
-        return errorCode;
-    }
-
-    @Override
-    public String getMessage() {
-        return message;
     }
 }
