@@ -1,7 +1,10 @@
-# CDD Common
+# Sangchu Common
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/CoffeeDrivenDevelopment/sangchu-common/main)
+![](https://github.com/CoffeeDrivenDevelopment/sangchu-common/actions/workflows/sangchu-common.yml/badge.svg)
+
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue)
+
 [![](https://jitpack.io/v/CoffeeDrivenDevelopment/sangchu-common.svg)](https://jitpack.io/#CoffeeDrivenDevelopment/sangchu-common)
 
 해당 라이브러리는 `Sangchu` 프로젝트에서 사용하는 기본적인 기능들을 제공합니다.
