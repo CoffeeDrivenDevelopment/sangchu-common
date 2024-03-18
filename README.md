@@ -77,6 +77,8 @@ class SangchuConfig {
 
 예시는 아래와 같습니다.
 
+**ResponseEntityFactory.java**
+
 ```java
 
 @GetMapping("/v1")
@@ -85,6 +87,8 @@ public ResponseEntity<MessageBody<String>> get() {
     return response;
 }
 ```
+
+**ResponseEntityFactory.kt**
 
 ```kotlin
 @GetMapping("/v1")
