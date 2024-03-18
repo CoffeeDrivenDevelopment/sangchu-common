@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.CoffeeDrivenDevelopment:sangchu-common:0.0.2'
+    implementation 'com.github.CoffeeDrivenDevelopment:sangchu-common:0.0.3'
 }
 ```
 
@@ -34,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.CoffeeDrivenDevelopment:sangchu-common:Tag")
+    implementation("com.github.CoffeeDrivenDevelopment:sangchu-common:0.0.3")
 }
 ```
 
